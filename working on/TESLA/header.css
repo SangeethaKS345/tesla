@@ -1,0 +1,53 @@
+.logo{
+    color: black;
+    height: 50px;
+    width: 120px;
+    margin: 45px;
+    padding: 10px;
+}
+.nav-bar{
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    display: flex;
+    
+}
+
+.nav-center{
+    height: 20px;
+    flex: 10;
+}
+.nav-right{
+    margin: 0;
+    display: flex;
+    padding-left: 5px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}
+
+.menu-list{
+    margin: 0 5px;
+}
+
+.menu-list a{
+    text-decoration: none;
+    width: 20px;
+    padding: 6px 7px;
+    color: white;
+    font-weight: 550;
+    font-size: 15px ;
+    font-stretch: expanded;
+    letter-spacing: 1px;
+}
+
+.menu-list >a:hover{
+    background-color: rgb(234, 231, 231);
+    border-radius: 5px;
+}
