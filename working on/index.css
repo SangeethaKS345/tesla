@@ -1,0 +1,28 @@
+table{
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 30%;
+    text-align: center;
+    
+}
+
+td{
+    border: 1px solid;
+    height: 30px;
+    vertical-align: sub;
+    /* background-color: blueviolet; */
+    color: rgb(21, 1, 1);
+}
+
+th{
+    border: 1px solid;
+    height: 50px;
+    /* background-color: yellow; */
+}
+
+tr:hover {
+    background-color: coral;
+}
+tr: :nth-child(even){
+    
+}

@@ -20,6 +20,7 @@
     padding-top: 10px;
  }
 
+
 .image{
     height: 80px;
     position: static;
@@ -35,6 +36,11 @@
     color: white;
     padding-top: 10px;
  }
+
+ .text-container u{
+    cursor: pointer;
+ }
+
 h1{
     display: flex;
     justify-content: center;
@@ -70,8 +76,8 @@ sup{
 
 .button-1{
     margin: 10px;
-    height: 45px;
-    width: 292px;
+    height: 40px;
+    width: 260px;
     border-radius: 5px;
     text-decoration: none;
     display: flex;
@@ -84,8 +90,8 @@ sup{
 
 .button-2{
     margin: 10px;
-    height: 45px;
-    width: 292px;
+    height: 40px;
+    width: 260px;
     border-radius: 5px;
     text-decoration: none;
     display: flex;
@@ -108,8 +114,8 @@ sup{
 
 .button-5-1{
     margin: 10px;
-    height: 45px;
-    width: 292px;
+    height: 40px;
+    width: 260px;
     border-radius: 0px;
     text-decoration: none;
     display: flex;
@@ -124,8 +130,8 @@ sup{
 
 .button-5-2{
     margin: 10px;
-    height: 45px;
-    width: 292px;
+    height: 40px;
+    width: 260px;
     border-radius: 0px;
     text-decoration: none;
     display: flex;
@@ -144,3 +150,33 @@ sup{
     margin: -40px 400px ;
 }
 
+.buttons-9{
+    display: flex;
+    justify-content: center;
+    font-weight: 550;
+    font-size: 15px;
+    padding-top: 400px;
+    padding-bottom: -60000px;
+}
+.button-9-1{
+    margin: 10px;
+    height: 40px;
+    width: 260px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#426ae3;
+    color: white;
+}
+.image-9{
+    height: 80px;
+    position: static;
+}
+
+.image-9 img{
+    width: 100%;
+    height: 675px;
+    object-fit: cover;
+}
