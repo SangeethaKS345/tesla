@@ -1,0 +1,24 @@
+header{
+     width: 100%;
+     height: 90px;
+     background-color: aqua;
+     position: relative;
+}
+
+.logo{
+    margin: 15px 30px 30px ;
+    height: 70px;
+    width: 145px;
+}
+.nav-elements{
+    position: absolute;
+    display: flex;
+    top: 0;
+    justify-content: space-evenly;
+    
+}
+
+.nav-button a{
+    top: 0;
+    justify-content: space-around;
+}
